@@ -1,1 +1,1 @@
-docker run --rm -it -v $(pwd):/srv/jekyll jekyll/minimal:latest jekyll build --watch --incremental --destination ./public
+docker run --rm -it -v $(pwd):/srv/jekyll jekyll/jekyll:latest jekyll build --watch --incremental --destination ./public
