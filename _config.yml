@@ -1,0 +1,29 @@
+title: Touch Media
+email: info@touch-media.de
+description: >- # this means to ignore newlines
+  Ihre Ansprechpartner für Medienstationen im Museumsumfeld.
+
+markdown: kramdown
+
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+plugins:
+  - jekyll-feed
+
+collections:
+  portfolio:
+    output: true
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "portfolio"
+    values:
+      layout: "portfolio"
+
+exclude:
+  - build
+  - .idea
+  - Readme.md

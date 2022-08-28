@@ -1,0 +1,11 @@
+nav:
+  - title: "Leistungen"
+    section: service
+  - title: "Portfolio"
+    section: portfolio
+  - title: "Über uns"
+    section: about-us
+  - title: "Team"
+    section: team
+  - title: "Kontakt"
+    section: contact

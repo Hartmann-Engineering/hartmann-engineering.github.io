@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="de">
+
+  {% include head.html %}
+
+  <body id="page-top" class="{% if page.layout == "home" %}layout-home{% else %}layout-page{% endif %}">
+
+      {{ content }}
+
+	  {% include footer.html %}
+
+
+	  <script src="{{ site.baseurl }}assets/jquery.min.js"></script>
+	  <script src="{{ site.baseurl }}assets/bootstrap.bundle.min.js"></script>
+	  <script src="{{ site.baseurl }}assets/jquery.easing.min.js"></script>
+	  <script src="{{ site.baseurl }}assets/main.js"></script>
+
+  </body>
+</html>

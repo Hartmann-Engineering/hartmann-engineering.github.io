@@ -1,0 +1,97 @@
+header:
+  title: Medienstationen für Museen
+  text: Schön dass Sie da sind
+  button: Mehr erfahren
+  buttonlink: "#service"
+
+services:
+  title: "Leistungen"
+  text: >-
+    Wir bieten Ihnen ein rundlus Sorglospaket für Ihre nächsten Medienstation an.
+    
+    
+    Schauen Sie gerne, welche Leistungen wir Ihnen anbieten können.
+  section: service
+  list:
+    - title: "Medienstation"
+      desc: "Lassen Sie sich von Touchoptimierten Anwendungen in Ihrer Ausstellung begeistern."
+      icon: fas fa-tablet-screen-button
+    - title: "Individuell"
+      desc: "Wir schaffen individuelle Lösungen für Sie."
+      icon: fas fa-gears
+    - title: "Innovativ"
+      desc: "Ein junges Team, welches stets mit der Zeit geht. Bei uns bekommen Sie stets kompetente Beratung und professionelle Umsetzung"
+      icon: fas fa-lightbulb
+
+portfolio:
+  title: "Portfolio"
+  text: "Lorem ipsum dolor sit amet consectetur."
+  section: portfolio
+  closebutton: "Schließen"
+
+about:
+  title: "Über uns"
+  text: "Wer wir sind"
+  body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
+  section: about-us
+
+clients:
+  title: "Unsere Kunden"
+  section: clients
+  max-height: 100px
+  horizontal-scrolling: "yes" #"yes/no"
+  list:
+    - title: "Landesmuseum Oldenburg"
+      url: https://www.landesmuseum-ol.de/
+      logo: assets/img/clients/landesmuseum-ol.png
+
+team:
+  title: "Unser großartiges Team"
+  text: "Lorem ipsum dolor sit amet consectetur."
+  subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
+  section: team
+  people:
+    - name: "Nils"
+      role: "Technischer Berater"
+      image: assets/img/team/nils.png
+      social:
+        - url: https://linkedin.com
+          icon: fab fa-linkedin-in
+        - url: https://xing.com
+          icon: fab fa-xing
+    - name: "Mareen"
+      role: "Marketing"
+      image: assets/img/team/2.jpg
+      social:
+        - url: https://linkedin.com
+          icon: fab fa-linkedin-in
+        - url: https://xing.com
+          icon: fab fa-xing
+    - name: "Marcel"
+      role: "Softwareentwickler"
+      image: assets/img/team/marcel.png
+      social:
+        - url: https://linkedin.com
+          icon: fab fa-linkedin-in
+        - url: https://xing.com
+          icon: fab fa-xing
+
+contact:
+  title: "Kontakt"
+  text: "Kontaktieren Sie uns."
+  section: contact
+  name: "Name*"
+  name-validation: "Geben Sie einen Namen ein."
+  email: "E-Mail*"
+  email-validation: "Geben Sie Ihre E-Mail-Addresse ein."
+  phone: "Telefonnummer*"
+  phone-validation: "Geben Sie Ihre Telefonnummer ein."
+  message: "Nachricht*"
+  message-validation: "Schreiben Sie etwas..."
+  subject: "Kontakt-Formular Bestätigung"
+  submit: "Nachricht absenden"
+
+footer:
+  social:
+    - url: mailto:info@domain.tld
+      icon: "fas fa-envelope"
