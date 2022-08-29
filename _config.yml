@@ -5,7 +5,7 @@ description: >- # this means to ignore newlines
 
 markdown: kramdown
 
-baseurl: "/touch-media.github.io" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 plugins:
@@ -27,3 +27,5 @@ exclude:
   - build
   - .idea
   - Readme.md
+  - Gemfile
+  - Gemfile.lock
