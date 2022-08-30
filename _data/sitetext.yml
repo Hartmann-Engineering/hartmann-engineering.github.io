@@ -74,9 +74,7 @@ team:
       role: "Softwareentwickler"
       image: assets/img/team/marcel.png
       social:
-        - url: https://linkedin.com
-          icon: fab fa-linkedin-in
-        - url: https://xing.com
+        - url: https://www.xing.com/profile/Marcel_Thole
           icon: fab fa-xing
 
 contact:
