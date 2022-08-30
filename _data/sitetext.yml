@@ -44,6 +44,9 @@ clients:
     - title: "Landesmuseum Oldenburg"
       url: https://www.landesmuseum-ol.de/
       logo: assets/img/clients/landesmuseum-ol.png
+    - title: "Lyonel-Feininger-Galerie"
+      url: https://www.feininger-galerie.de/
+      logo: assets/img/clients/Feininger-Galerie.svn
 
 team:
   title: "Unser großartiges Team"
@@ -59,7 +62,7 @@ team:
           icon: fab fa-linkedin-in
         - url: https://xing.com
           icon: fab fa-xing
-    - name: "Mareen"
+    - name: "Maren"
       role: "Marketing"
       image: assets/img/team/2.jpg
       social:
