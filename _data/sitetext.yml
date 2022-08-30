@@ -20,12 +20,12 @@ services:
       desc: "Wir schaffen individuelle Lösungen für Sie."
       icon: fas fa-gears
     - title: "Innovativ"
-      desc: "Ein junges Team, welches stets mit der Zeit geht. Bei uns bekommen Sie stets kompetente Beratung und professionelle Umsetzung"
+      desc: "Ein junges Team, welches stets mit der Zeit geht. Bei uns werden Sie kompetent beratungen und erhalten professionelle Ergebnisse"
       icon: fas fa-lightbulb
 
 portfolio:
   title: "Portfolio"
-  text: "Lorem ipsum dolor sit amet consectetur."
+  text: "Beratung für digitale Medien, Tabletts als Medienstationen, große integrierte Bildschirme als Medienstation, Lektorate für Ihre Inhalte."
   section: portfolio
   closebutton: "Schließen"
 
@@ -38,7 +38,7 @@ about:
 clients:
   title: "Unsere Kunden"
   section: clients
-  max-height: 100px
+  max-height: 150px
   horizontal-scrolling: "yes" #"yes/no"
   list:
     - title: "Landesmuseum Oldenburg"
@@ -46,7 +46,7 @@ clients:
       logo: assets/img/clients/landesmuseum-ol.png
     - title: "Lyonel-Feininger-Galerie"
       url: https://www.feininger-galerie.de/
-      logo: assets/img/clients/Feininger-Galerie.svn
+      logo: assets/img/clients/Lyonel-Feininger-Galerie.png
 
 team:
   title: "Unser großartiges Team"
@@ -55,16 +55,16 @@ team:
   section: team
   people:
     - name: "Nils"
-      role: "Technischer Berater"
+      role: "Technischer Berater/Entwickler"
       image: assets/img/team/nils.png
       social:
-        - url: https://linkedin.com
+        - url: https://www.linkedin.com/in/nils-hartmann-474189201/
           icon: fab fa-linkedin-in
-        - url: https://xing.com
+        - url: https://www.xing.com/profile/Nils_Hartmann19
           icon: fab fa-xing
     - name: "Maren"
-      role: "Marketing"
-      image: assets/img/team/2.jpg
+      role: "Kuratorin"
+      image: assets/img/team/maren.png
       social:
         - url: https://linkedin.com
           icon: fab fa-linkedin-in
