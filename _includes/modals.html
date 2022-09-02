@@ -1,5 +1,5 @@
 <!-- Portfolio Modals -->
-{% for project in site.portfolio %}
+{% for project in site.portfolio reversed | limit:6 %}
 
 <div class="portfolio-modal modal fade" id="portfolio-{{ forloop.index }}" tabindex="-1" role="dialog" aria-hidden="true">
   <div class="modal-dialog">
@@ -16,7 +16,7 @@
               <!-- Project Details Go Here -->
               <h2 class="text-uppercase">{{ project.title }}</h2>
               <p class="item-intro text-muted">{{ project.subtitle }}</p>
-              <img class="img-fluid d-block mx-auto" src="{{ project.image }}" alt="{{ project.alt }}" />
+              <img class="img-fluid d-block mx-auto" src="{{ project.image }}" alt="{{ project.alt }}" title="{{ page.alt }}" />
               <p>{{ project.content | markdownify }}</p>
               <button class="btn btn-primary" data-dismiss="modal" type="button">
                 <i class="fas fa-times"></i>

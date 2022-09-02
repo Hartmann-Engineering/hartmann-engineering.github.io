@@ -43,10 +43,10 @@ clients:
   list:
     - title: "Landesmuseum Oldenburg"
       url: https://www.landesmuseum-ol.de/
-      logo: assets/img/clients/landesmuseum-ol.png
+      logo: assets/img/clients/landesmuseum-ol.webp
     - title: "Lyonel-Feininger-Galerie"
       url: https://www.feininger-galerie.de/
-      logo: assets/img/clients/Lyonel-Feininger-Galerie.png
+      logo: assets/img/clients/Lyonel-Feininger-Galerie.webp
 
 team:
   title: "Unser großartiges Team"
@@ -56,7 +56,7 @@ team:
   people:
     - name: "Nils"
       role: "Technischer Berater/Entwickler"
-      image: assets/img/team/nils.png
+      image: assets/img/team/nils.webp
       social:
         - url: https://www.linkedin.com/in/nils-hartmann-474189201/
           icon: fab fa-linkedin-in
@@ -64,7 +64,7 @@ team:
           icon: fab fa-xing
     - name: "Maren"
       role: "Kuratorin"
-      image: assets/img/team/maren.png
+      image: assets/img/team/maren.webp
       social:
         - url: https://linkedin.com
           icon: fab fa-linkedin-in
@@ -72,7 +72,7 @@ team:
           icon: fab fa-xing
     - name: "Marcel"
       role: "Softwareentwickler"
-      image: assets/img/team/marcel.png
+      image: assets/img/team/marcel.webp
       social:
         - url: https://www.xing.com/profile/Marcel_Thole
           icon: fab fa-xing
