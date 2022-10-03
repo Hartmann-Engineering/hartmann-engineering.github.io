@@ -1,0 +1,30 @@
+<section class="bg-light page-section" id="blog">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">{{ site.data.sitetext.blog.title | markdownify | default: "Blog" }}</h2>
+        <h3 class="section-subheading text-muted">{{ site.data.sitetext.blog.text | markdownify }}</h3>
+      </div>
+    </div>
+
+    <div class="blog-masonry">
+	{% for blog in site.blog reversed | limit:3 %}
+      <div class="blog-item">
+        {% if blog.thumbnail %}
+        <a class="blog-link" href="{{ blog.url }}">
+          <img class="img-fluid" src="{{ blog.thumbnail }}" alt="{{ blog.title }}" title="{{ blog.title }}">
+        </a>
+        {% endif %}
+        <div class="blog-caption">
+          <h4><a class="blog-link" href="{{ blog.url }}">{{ blog.title }}</a></h4>
+          <p class="text-muted">{{ blog.subtitle }}</p>
+        </div>
+      </div>
+	{% endfor %}
+    </div>
+
+    <div class="text-center">
+      <a href="{% link blog.html %}" class="btn btn-primary">{{ site.data.sitetext.blog.read_all }}</a>
+    </div>
+  </div>
+</section>

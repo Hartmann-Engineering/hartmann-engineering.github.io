@@ -20,19 +20,25 @@ services:
       desc: "Wir schaffen individuelle Lösungen für Sie."
       icon: fas fa-gears
     - title: "Innovativ"
-      desc: "Ein junges Team, welches stets mit der Zeit geht. Bei uns werden Sie kompetent beratungen und erhalten professionelle Ergebnisse"
+      desc: "Ein junges Team, welches stets mit der Zeit geht. Bei uns werden Sie kompetent beraten und erhalten professionelle Ergebnisse"
       icon: fas fa-lightbulb
 
 portfolio:
   title: "Portfolio"
   text: "Beratung für digitale Medien, Tabletts als Medienstationen, große integrierte Bildschirme als Medienstation, Lektorate für Ihre Inhalte."
+  read_all: "Alle Projekte"
   section: portfolio
   closebutton: "Schließen"
+
+blog:
+  title: "Blog"
+  text: "Schauen Sie sich in unseren neusten Blogeinträgen um"
+  read_all: "Weitere Beiträge"
 
 about:
   title: "Über uns"
   text: "Wer wir sind"
-  body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
+  body: "Wir sind Nils, Maren und Marcel und ein junges und dynamisches Team"
   section: about-us
 
 clients:
@@ -50,8 +56,8 @@ clients:
 
 team:
   title: "Unser großartiges Team"
-  text: "Lorem ipsum dolor sit amet consectetur."
-  subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
+  text: "Wir sind Nils, Maren und Marcel und ein junges und dynamisches Team"
+  subtext: Zögern Sie nicht uns zu kontaktieren.
   section: team
   people:
     - name: "Nils"

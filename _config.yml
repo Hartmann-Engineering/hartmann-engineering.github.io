@@ -16,6 +16,9 @@ collections:
   portfolio:
     output: true
     sort_by: date
+  blog:
+    output: true
+    sort_by: date
 
 defaults:
   -
@@ -24,6 +27,12 @@ defaults:
       type: "portfolio"
     values:
       layout: "portfolio"
+  -
+    scope:
+      path: ""
+      type: "blog"
+    values:
+      layout: "blog"
 
 exclude:
   - build

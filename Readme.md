@@ -1,4 +1,4 @@
-# Touch Media Website
+# Art in Touch Website
 
 # Howto
 ## Startpage
@@ -9,3 +9,6 @@
 ## New Portfolio
 - Create a new Markdown File in the `_portfolio` Folder
   - The Entries are ordered by the date in the meta information
+
+# Text generation
+- https://rytr.me/

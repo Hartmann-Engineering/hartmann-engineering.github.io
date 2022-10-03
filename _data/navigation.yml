@@ -5,6 +5,8 @@ nav:
     section: portfolio
   - title: "Über uns"
     section: about-us
+  - title: "Blog"
+    section: blog
   - title: "Team"
     section: team
   - title: "Kontakt"

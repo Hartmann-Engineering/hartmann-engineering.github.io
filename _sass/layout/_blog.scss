@@ -1,0 +1,72 @@
+.blog-masonry {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  column-gap: 20px;
+}
+@media (min-width: 767px) {
+  .blog-masonry {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
+  }
+}
+
+// Styling for the portfolio section
+#blog {
+  .blog-item {
+    position: relative;
+    right: 0;
+    margin: 0 0 15px;
+    &:hover {
+      .blog-caption {
+        opacity: .97;
+      }
+    }
+    .blog-link {
+      position: relative;
+      display: block;
+      max-width: 400px;
+      margin: 0 auto;
+      cursor: pointer;
+    }
+    .blog-caption {
+      position: absolute;
+      bottom: 0px;
+      width: 100%;
+      opacity: 0.8;
+      transition: opacity .7s;
+      overflow: hidden;
+      margin: 0 auto;
+      padding: 25px;
+      text-align: center;
+      background-color: $white;
+      h4 {
+        margin: 0;
+        text-transform: none;
+      }
+      p {
+        font-size: 16px;
+        font-style: italic;
+        margin: 0;
+        @include serif-font;
+      }
+    }
+  }
+  * {
+    z-index: 2;
+  }
+}
+@media (min-width: 767px) {
+  #blog {
+    .blog-item {
+      margin: 0 0 30px;
+    }
+  }
+}
+
+/** Portfolio Detail Page */
+.blog {
+  img {
+    max-width: 30%;
+  }
+}
