@@ -15,17 +15,17 @@ Kuckuckstraße 11
 
 **Kontakt:**
 
-E-Mail: [info@art-in-touch.de](mailto:info@art-in-touch.de)
+E-Mail: [info@art-in-touch.de](mailto:info@art-in-touch.de) <br>
 Telefon: 0152 53585537
 
 **Postadresse:**
 
-Brüderstraße 21
+Brüderstraße 21 <br>
 26121 Oldennburg
 
 **Umsatzsteuer-ID:**
 
-Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz:
+Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz:<br>
 DE319833099
 
 
